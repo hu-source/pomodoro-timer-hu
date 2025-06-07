@@ -1,0 +1,14 @@
+{
+  "name": "pomodoro-timer",
+  "version": "1.0.0",
+  "description": "ポモドーロタイマーアプリ",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx browserify script.js -o build/bundle.js",
+    "deploy": "gh-pages -d build"
+  },
+  "dependencies": {
+    "browserify": "^17.0.0",
+    "gh-pages": "^5.0.0"
+  }
+}
